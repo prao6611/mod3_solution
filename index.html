@@ -22,8 +22,7 @@
           <div class="navbar-brand">
             <a href="index.html"><h1>Food, LLC</h1></a>
             <p>
-              <!--<img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>Kosher Certified</span>-->
+             
             </p>
           </div>
 <!-- mobile top right button that will display the menu when COLLAPSED in mobile view...does not appear in desktop resolution [navbar-toggle and its components in bootstrap.css; collapse.js and its properties in bootstrap.js]-->
@@ -32,30 +31,99 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            
           </button>
         </div>
 
         <div id="collapsable-nav" class="collapse navbar-collapse">
+        	<!-- code cut
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-                <br class="hidden-xs"> Chicken</a>
-            </li>
-            <li>
-              <a href="#">
-                <br class="hidden-xs"> Beef</a>
-            </li>
-            <li>
-              <a href="#">
-                <br class="hidden-xs"> Sushi</a>
-            </li>
+            <li>       -->
+              <a href="menu-categories.html" class="visible-xs active">  Chicken <span class="sr-only"></a></span>
             
-          </ul><!-- #nav-list -->
+              <a href="#" class="visible-xs active"> Beef</a>
+            
+              <a href="#" class="visible-xs active"> Sushi</a>
+            
+            
+            <!--</ul>-->
+
+
+            <!--<ul class="nav navbar-nav">-->
+        <!--<a href="#" class="visible-xs"> Chicken </a>
+        <a href="#" class="visible-xs"> Beef </a>
+        <a href="#" class="visible-xs">Dropdown </a>-->
+          
+     
+          <!--</ul>--><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
+
+  
+    <!-- clear the content from menu-category page and put this code below for single-category page-->
+    <div id="main-content" class="container">
+    <h1 id="menu-categories-title" class="text-center" >Our Menu</h1> <br>
+    
+    <!--<div class="text-center new col-md-12 col-sm-12 col-xs-12"  width="80%" height="100%"> CHICKEN. 
+    	<p class="text-left new" class="col-xs-12 "> Chicken is the ubiquitous food of our era, crossing multiple cultural boundaries with ease. With its mild taste and uniform texture, chicken presents an intriguingly blank canvas for the flavor palette of almost any cuisine. A generation of Britons is coming of age in the belief that chicken tikka masala is the national dish, and the same thing is happening in China with Kentucky Fried Chicken. Long after the time when most families had a few hens running around the yard that could be grabbed and turned into dinner, chicken remains a nostalgic, evocative dish for most Americans. When author Jack Canfield was looking for a metaphor for psychological comfort, he didn’t call it “Clam Chowder for the Soul.”
+How did the chicken achieve such cultural and culinary dominance? It is all the more surprising in light of the belief by many archaeologists that chickens were first domesticated not for eating but for cockfighting. Until the advent of large-scale industrial production in the 20th century, the economic and nutritional contribution of chickens was modest. In Guns, Germs, and Steel, Jared Diamond listed chickens among the “small domestic mammals and domestic birds and insects” that have been useful to humanity but unlike the horse or the ox did little—outside of legends—to change the course of history. Nonetheless, the chicken has inspired contributions to culture, art, cuisine, science and religion over the millennia. Chickens were, and still are, a sacred animal in some cultures. The prodigious and ever-watchful hen was a worldwide symbol of nurturance and fertility. Eggs hung in Egyptian temples to ensure a bountiful river flood. The lusty rooster (a.k.a. cock) was a universal signifier of virility—but also, in the ancient Persian faith of Zoroastrianism, a benign spirit that crowed at dawn to herald a turning point in the cosmic struggle between darkness and light. For the Romans, the chicken’s killer app was fortunetelling, especially during wartime. Chickens accompanied Roman armies, and their behavior was carefully observed before battle; a good appetite meant victory was likely. According to the writings of Cicero, when one contingent of birds refused to eat before a sea battle in 249 B.C., an angry consul threw them overboard. History records that he was defeated.
+
+Read more: https://www.smithsonianmag.com/history/how-the-chicken-conquered-the-world-87583657/#tom3Pp4x0wauwr4B.99
+Give the gift of Smithsonian magazine for only $12! http://bit.ly/1cGUiGv
+Follow us: @SmithsonianMag on Twitter</p></div>-->
+
+<!--<div class="row">-->
+
+<section class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="category-tile">
+            <img width="300" height="300" src="bg.jpg" alt="Lunch">
+            <span style="color: black; font-size: 15px;"> Chicken <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labour et dolore magna aliqua. Ut enim ad minim veniam, quis nortrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+            <a href="#menu-categories-title" class="pull-center visible-xs"> Back to Top
+            </a> </span>
+          </div>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="category-tile">
+            <img width="300" height="300" src="bg.jpg" alt="Lunch">
+            <span style="color: black; font-size: 15px;"> Beef <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labour et dolore magna aliqua. Ut enim ad minim veniam, quis nortrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            	<a href="#menu-categories-title" class="pull-center visible-xs"> Back to Top </a> </span>
+          </div>
+      </div>
+
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="category-tile">
+            <img width="300" height="300" src="bg.jpg" alt="Lunch">
+            <span style="color: black; font-size: 15px;"> Sushi <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labour et dolore magna aliqua. Ut enim ad minim veniam, quis nortrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<a href="#menu-categories-title" class="pull-center visible-xs"> Back to Top
+            </a> </span>
+          </div>
+      </div>
+  </section>
+
+
+  <!--<div class="col-md-4 col-sm-6 col-xs-12">
+   <h5 style="text-align: center;font-weight: bold;"> CHICKEN </h5>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labour et dolore magna aliqua. Ut enim ad minim veniam, quis nortrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>   
+</div>
+
+
+  <div class="col-md-4 col-sm-6 col-xs-12">
+   <h5 style="text-align: center; font-weight: bold;" > BEEF </h5>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labour et dolore magna aliqua. Ut enim ad minim veniam, quis nortrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>   
+</div>
+
+   <div class="col-md-4 col-sm-12 col-xs-12">
+    <h5 style="text-align: center; font-weight: bold;"> SUSHI </h5>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labour et dolore magna aliqua. Ut enim ad minim veniam, quis nortrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>   
+</div>
+
+</div>
+
 
   <!--<div id="call-btn" class="visible-xs">
     <a class="btn" href="tel:410-602-5008">
@@ -67,7 +135,7 @@
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
